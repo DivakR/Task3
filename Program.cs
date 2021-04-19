@@ -10,7 +10,7 @@ namespace ConsoleApp2
         {   
             if (args.Length % 2 == 0 || args.Length < 3)
             {
-                Console.WriteLine("Please enter an odd number of arguments");
+                Console.WriteLine("Please enter an odd number of arguments with differnt meanings. \nFor example: Rock, Paper, Scissors");
                 Environment.Exit(0);
             }
             string SecretKey = CreateKey();
